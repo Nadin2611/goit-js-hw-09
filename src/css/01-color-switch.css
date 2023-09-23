@@ -16,6 +16,18 @@ button[data-stop] {
   font-weight: bold;
 }
 
+button[data-start]:disabled {
+  background-color: #c0bcbc;
+  color: #3d3c3c;
+  cursor: default;
+}
+
+button[data-stop]:disabled {
+  background-color: #c0bcbc;
+  color: #3d3c3c;
+  cursor: default;
+}
+
 .container-btn {
   display: flex;
   gap: 20px;
