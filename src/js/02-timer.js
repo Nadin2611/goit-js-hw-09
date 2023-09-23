@@ -34,9 +34,7 @@ const options = {
   },
 };
 
-refs.datetimePicker.addEventListener('focus', () => {
-  flatpickr(refs.datetimePicker, options);
-});
+flatpickr(refs.datetimePicker, options);
 
 function onStartTimer(selectedDate) {
   const timerInterval = setInterval(() => {
