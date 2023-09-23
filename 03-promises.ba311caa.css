@@ -1,0 +1,2 @@
+form{justify-content:center;align-items:center;gap:20px;display:flex}label{color:#00f;flex-direction:column;justify-content:center;align-items:center;gap:10px;font-size:16px;display:flex}input{padding:5px}button{color:#fff;cursor:pointer;height:50px;width:200px;background-color:#00f;border:none;padding:10px 20px;font-size:16px}button:disabled{color:#3d3c3c;cursor:default;background-color:#c0bcbc}
+/*# sourceMappingURL=03-promises.ba311caa.css.map */
