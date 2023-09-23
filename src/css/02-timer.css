@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#datetime-picker {
+  padding: 5px;
+  font-size: 16px;
+  height: 50px;
+  width: 350px;
+}
+
+button[data-start] {
+  background-color: blue;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5%;
+  height: 50px;
+  width: 100px;
+}
+button[data-start]:disabled {
+  background-color: #c0bcbc;
+  color: #3d3c3c;
+  cursor: default;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.field {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+}
+
+.label {
+  font-size: 16px;
+  color: #797878;
+}

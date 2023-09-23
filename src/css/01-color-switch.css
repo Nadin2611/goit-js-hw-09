@@ -1,0 +1,25 @@
+button[data-start] {
+  background-color: rgb(51, 214, 10);
+  color: white;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button[data-stop] {
+  background-color: rgb(207, 10, 10);
+  color: white;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container-btn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
